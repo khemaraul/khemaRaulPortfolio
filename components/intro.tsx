@@ -20,7 +20,7 @@ export default function Intro() {
       className="w-full grid max-[989px]:grid-cols-1 grid-cols-[1.2fr_1.8fr] max-[989px]:justify-center gap-8 mx-4 mb-28 sm:mb-0 scroll-mt-[100rem]"
     >
       <motion.div
-        className="flex-col justify-center items-center p-[40px] max-[989px]:mx-48"
+        className="flex-col justify-center items-center p-[40px]"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
