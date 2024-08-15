@@ -17,14 +17,14 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="w-full grid grid-cols-[1.2fr_1.8fr] gap-8 mx-4 mb-28 sm:mb-0 scroll-mt-[100rem]"
+      className="w-full grid max-[989px]:grid-cols-1 grid-cols-[1.2fr_1.8fr] max-[989px]:justify-center gap-8 mx-4 mb-28 sm:mb-0 scroll-mt-[100rem]"
     >
       <motion.div
-        className="flex-col justify-center items-center p-[40px]"
+        className="flex-col justify-center items-center p-[40px] max-[989px]:mx-48"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <div className="w-full h-[25rem] max-[989px]:h-[15rem] bg-[url('../Images/DSC_0492-removebg.png')] bg-no-repeat bg-contain bg-center rounded-[10%_30%_50%_70%] border-2 border-solid bg-white shadow-2xl"></div>
+        <div className="w-full h-[25rem] bg-[url('../Images/DSC_0492-removebg.png')] bg-no-repeat bg-contain bg-center rounded-[10%_30%_50%_70%] border-2 border-solid bg-white shadow-2xl"></div>
       </motion.div>
       <motion.div
         className="flex-col justify-center items-center"
@@ -36,15 +36,15 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <div className="font-bold py-2"><span className="pr-8">👋</span> I'm Khema Raul.</div>
-          <div className="text-xl py-2"> I'm Mumbai based <span className="font-semibold">Data Engineer</span>, worked in <span className="font-semibold">ICICI Lombard</span>.</div>
-          <div className="font-semibold text-xl py-2">Having <span className="font-semibold">4 years</span> of experience in <span className="font-semibold">development and deployment</span>.</div>
-          <div className="text-xl py-2">I enjoy building  <span className="italic font-semibold">Websites and Desktop apps</span>.</div>
-          <div className="text-xl py-2">My focus is to learn new technologies.</div>
+          <div className="font-bold py-2 max-[989px]:self-center"><span className="pr-8">👋</span> I'm Khema Raul.</div>
+          <div className="text-xl py-2 max-[989px]:self-center"> I'm Mumbai based <span className="font-semibold">Data Engineer</span>, worked in <span className="font-semibold">ICICI Lombard</span>.</div>
+          <div className="font-semibold text-xl py-2 max-[989px]:self-center">Having <span className="font-semibold">4 years</span> of experience in <span className="font-semibold">development and deployment</span>.</div>
+          <div className="text-xl py-2 max-[989px]:self-center">I enjoy building  <span className="italic font-semibold">Websites and Desktop apps</span>.</div>
+          <div className="text-xl py-2 max-[989px]:self-center">My focus is to learn new technologies.</div>
         </motion.h1>
         
         <motion.div
-          className="flex flex-col sm:flex-row items-center justify-start gap-2 px-2 py-2 text-lg font-medium"
+          className="flex flex-col sm:flex-row items-center justify-start max-[989px]:justify-center gap-2 px-2 py-2 text-lg font-medium"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
@@ -77,7 +77,7 @@ export default function Intro() {
         </motion.div>
 
         <motion.div
-          className="flex flex-col sm:flex-row items-center justify-start gap-4 px-2 py-4 text-lg font-medium"
+          className="flex flex-col sm:flex-row items-center justify-start max-[989px]:justify-center gap-4 px-2 py-4 text-lg font-medium"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{

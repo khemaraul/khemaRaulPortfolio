@@ -55,7 +55,7 @@ export default function Contact() {
       }}
     >
       <SectionHeading>Contact me</SectionHeading>
-      <div className="grid grid-cols-[0.8fr_1.2fr] gap-12 items-center">
+      <div className="grid max-[989px]:grid-cols-1 grid-cols-[0.8fr_1.2fr] gap-12 items-center">
         <div className="flex flex-col justify-evenly items-center">
           <div className="text-lg text-gray-700 dark:text-white/80 my-[5px]">
             Please contact me directly at{" "}
@@ -64,7 +64,7 @@ export default function Contact() {
             </a>{" "}
           </div>
           <div className="text-lg text-gray-700 dark:text-white/80 my-[5px]">or</div>
-          <div className="text-lg text-gray-700 dark:text-white/80 my-[5px]">through this form <span>👉</span></div>
+          <div className="text-lg text-gray-700 dark:text-white/80 my-[5px]">through this form <span className="max-[989px]:hidden">👉</span><span className="hidden max-[989px]:block">👇</span></div>
         </div>
 
         <form

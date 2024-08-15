@@ -107,12 +107,16 @@ export default function ResumeBackup() {
             <div className="alt"><a href="mailto:someone@example.com">khemaraul@gmail.com</a></div>
             <div className="text-[#AEAEAE]"><FaLinkedin /></div>
             <div className="alt"><a href="https://www.linkedin.com/in/khema-raul-970bba15b/?originalSubdomain=in" target="_blank">linkedin.com</a></div>
-            <div className="text-[#AEAEAE]"><FaMapMarkedAlt /></div>
-            <div>Mumbai, India</div>
+            <div className="text-[#AEAEAE] max-[989px]:hidden"><FaMapMarkedAlt /></div>
+            <div className="max-[989px]:hidden">Mumbai, India</div>
+        </div>
+        <div className="hidden max-[989px]:personalInfo max-[989px]:flex max-[989px]:flex-row max-[989px]:items-center max-[989px]:text-lg max-[989px]:my-[10px]">
+            <div className="max-[989px]:text-[#AEAEAE] max-[989px]:mr-2"><FaMapMarkedAlt /></div>
+            <div className="max-[989px]:block">Mumbai, India</div>
         </div>
       </motion.div>
       <motion.div
-        className="w-full grid grid-cols-[1.8fr_1.2fr] gap-8 items-start bg-white p-[40px] dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90"
+        className="w-full grid grid-cols-[1.8fr_1.2fr] max-[989px]:grid-cols-1 gap-8 items-start bg-white p-[40px] dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -202,7 +206,7 @@ export default function ResumeBackup() {
                 <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE] py-[10px]">PASSIONS</div>
                 {passions.map((item,index) => (
                 <div key={index} className="text-md grid grid-cols-[0.2fr_1.8fr] gap-2 items-start mt-4">
-                    <div className="text-xl text-[#ec6608] bg-[#f0e9eb] rounded-full p-[10px] m-[5px]"><FaStar /></div>
+                    <div className="text-xl text-[#ec6608] p-[10px] m-[5px]"><FaStar /></div>
                     <div className="flex flex-col justify-evenly">
                         <div className="text-md font-bold">{item.name}</div>
                         <div className="text-sm">{item.description}</div>
