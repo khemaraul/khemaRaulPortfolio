@@ -68,7 +68,7 @@ export default function Contact() {
         </div>
 
         <form
-          className="mt-10 mr-8 flex flex-col dark:text-black"
+          className="mt-10 mr-8 max-[989px]:mr-0 flex flex-col dark:text-black"
           onSubmit={handleSubmit}
         >
           <input
