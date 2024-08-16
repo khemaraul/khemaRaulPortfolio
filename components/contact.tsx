@@ -90,7 +90,7 @@ export default function Contact() {
             onChange={handleChange}
             value={formData.message}
           />
-          <SubmitBtn />
+          <SubmitBtn  />
         </form>
       </div>
     </motion.section>
