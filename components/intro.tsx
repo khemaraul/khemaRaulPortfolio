@@ -24,7 +24,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <div className="w-full h-[28rem] bg-[url('../Images/Profile3.jpg')] bg-no-repeat bg-cover bg-center rounded-[10%_30%_50%_70%] border-2 border-solid bg-white shadow-2xl"></div>
+        <div className="w-full h-[25rem] bg-[url('../Images/Profile3.jpg')] bg-no-repeat bg-cover bg-center rounded-[10%_30%_50%_70%] border-2 border-solid bg-white shadow-2xl"></div>
       </motion.div>
       <motion.div
         className="flex-col justify-center items-center"
