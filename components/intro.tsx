@@ -37,7 +37,8 @@ export default function Intro() {
           animate={{ opacity: 1, y: 0 }}
         >
           <div className="font-bold py-2"><span className="pr-8">👋</span> I'm Khema Raul.</div>
-          <div className="text-xl py-2"> I'm Mumbai based <span className="font-semibold">Data Engineer</span>, Former employee of <span className="font-semibold">ICICI Lombard</span>.</div>
+          <div className="text-xl py-2"> Currently studying a <span className="font-semibold">Master's </span> at <span className="font-semibold">Dublin City University, Ireland</span>.</div>
+          <div className="text-xl py-2"><span className="font-semibold">Data Engineer</span>, Former employee of <span className="font-semibold">ICICI Lombard</span>.</div>
           <div className="font-semibold text-xl py-2">Having <span className="font-semibold">4 years</span> of experience in <span className="font-semibold">development and deployment</span>.</div>
           <div className="text-xl py-2">I enjoy building  <span className="italic font-semibold">Websites and Desktop apps</span>.</div>
           <div className="text-xl py-2">My focus is to learn new technologies.</div>

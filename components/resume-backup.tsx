@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import { FaLinkedin, FaMapMarkedAlt, FaEnvelope, FaCalendarWeek, FaMapPin, FaCode, FaCertificate, FaStar } from "react-icons/fa";
+import { FaLinkedin, FaMapMarkedAlt, FaEnvelope, FaCalendarWeek, FaMapPin, FaCode, FaCertificate, FaGithub, FaStar } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import SectionHeading from "./section-heading";
@@ -101,18 +101,20 @@ export default function ResumeBackup() {
         animate={{ opacity: 1, y: 0 }}
       >
         <div className="text-3xl my-[5px] font-['raleway']">Khema Raul</div>
-        <div className="text-lg text-[#ec6608] my-[5px]">Data Engineer | Ex ICICI Lombard | Python, Microsoft Azure, Javascript, React.js, Node.js</div>
+        <div className="text-lg text-[#ec6608] my-[5px]">Stamp 2 | Masters AI Student at DCU | Data Engineer | Ex ICICI Lombard | Python, Microsoft Azure, Javascript, React.js, Node.js</div>
         <div className="personalInfo flex flex-row items-center text-lg my-[10px]">
             <div className="text-[#AEAEAE]"><FaEnvelope /></div>
-            <div className="alt"><a href="mailto:someone@example.com">khemaraul@gmail.com</a></div>
+            <div className="alt"><a href="mailto:khemaraul@gmail.com">khemaraul@gmail.com</a></div>
+            <div className="text-[#AEAEAE]"><FaGithub /></div>
+            <div className="alt"><a href="https://github.com/khemaraul">github.com</a></div>
             <div className="text-[#AEAEAE]"><FaLinkedin /></div>
             <div className="alt"><a href="https://www.linkedin.com/in/khema-raul-970bba15b/?originalSubdomain=in" target="_blank">linkedin.com</a></div>
             <div className="text-[#AEAEAE] max-[989px]:hidden"><FaMapMarkedAlt /></div>
-            <div className="max-[989px]:hidden">Mumbai, India</div>
+            <div className="max-[989px]:hidden">D09W6Y4, Ireland</div>
         </div>
         <div className="hidden max-[989px]:personalInfo max-[989px]:flex max-[989px]:flex-row max-[989px]:items-center max-[989px]:text-lg max-[989px]:my-[10px]">
             <div className="max-[989px]:text-[#AEAEAE] max-[989px]:mr-2"><FaMapMarkedAlt /></div>
-            <div className="max-[989px]:block">Mumbai, India</div>
+            <div className="max-[989px]:block">D09W6Y4, Ireland</div>
         </div>
       </motion.div>
       <motion.div
@@ -123,7 +125,7 @@ export default function ResumeBackup() {
         <div className="flex flex-col justify-evenly">
             <div className="flex flex-col justify-evenly mb-6">
                 <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE]">SUMMARY</div>
-                <div className="text-sm mt-4">Passionate and dedicated Data Engineer with over 4 years of professional experience in software development and deployment. I have a strong foundation in both frontend and backend development, with hands-on expertise in Python, React.js, Node.js, JavaScript, and TypeScript. My experience extends to utilizing Microsoft Azure for seamless deployments and GitHub Actions for CI/CD, ensuring efficient and reliable software delivery. I thrive on leveraging cutting-edge technology to drive impactful results and am eager to continue growing in this dynamic field.</div>
+                <div className="text-sm mt-4">Currently pursuing a Master's in Computing with a specialization in Artificial Intelligence at DCU. I am an experienced Data Engineer with 4+ years in software development and deployment, proficient in both frontend and backend technologies. My technical skill set includes Python, React.js, Node.js, JavaScript, and TypeScript, along with expertise in Microsoft Azure for cloud deployments and GitHub Actions for CI/CD pipelines. I am passionate about leveraging innovative technologies to deliver high-impact results and continually enhance software delivery processes. Eager to contribute and grow in the dynamic field of AI and software engineering.</div>
             </div>
             <div className="flex flex-col justify-evenly mb-6">
                 <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE]">EXPERIENCE</div>
@@ -147,6 +149,14 @@ export default function ResumeBackup() {
             </div>
             <div className="flex flex-col justify-evenly mb-6">
                 <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE]">EDUCATION</div>
+                <div className="text-2xl font-bold mt-6">Master's in Computing-Artificial Intelligence</div>
+                <div className="flex flex-row justify-between items-center my-4">
+                    <div className="text-md text-[#ec6608] font-bold">Dublin City University</div>
+                    <div className="flex flex-row justify-evenly mr-[18px]">
+                        <div className="flex flex-row justify-between items-center"><span className="pr-[1px]"><FaCalendarWeek /></span><span className="px-2">2024-2025</span></div>
+                        <div className="flex flex-row justify-between items-center"><span className="pr-[1px]"><FaMapPin /></span><span className="px-2">Dublin 9, Ireland</span></div>
+                    </div>
+                </div>
                 <div className="text-2xl font-bold mt-6">Bachelor of engineering Information Technology</div>
                 <div className="flex flex-row justify-between items-center my-4">
                     <div className="text-md text-[#ec6608] font-bold">Savitribai Phule Pune University</div>
@@ -203,7 +213,7 @@ export default function ResumeBackup() {
             </div>
             </div>
             <div className="flex flex-col justify-evenly mb-6">
-                <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE] py-[10px]">PASSIONS</div>
+                <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE] py-[7px]">PASSIONS</div>
                 {passions.map((item,index) => (
                 <div key={index} className="text-md grid grid-cols-[0.2fr_1.8fr] gap-2 items-start mt-4">
                     <div className="text-xl text-[#ec6608] p-[10px] m-[5px]"><FaStar /></div>

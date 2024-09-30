@@ -97,16 +97,16 @@ export default function Resume() {
         animate={{ opacity: 1, y: 0 }}
       >
         <div className="text-4xl my-[5px] font-['raleway']">Khema Raul</div>
-        <div className="text-xl text-[#ec6608] my-[15px]">Data Engineer | Ex ICICI Lombard | Python, Microsoft Azure, Javascript, React.js, Node.js</div>
+        <div className="text-xl text-[#ec6608] my-[15px]">Stamp 2 | Masters AI Student at DCU | Data Engineer | EX-ICICI Lombard | Python, Microsoft Azure, Javascript, React.js, Node.js</div>
         <div className="personalInfo-dummy flex flex-row items-center text-xl">
             <div className="text-[#AEAEAE]"><FaEnvelope /></div>
-            <div className="alt"><a href="mailto:someone@example.com">khemaraul@gmail.com</a></div>
+            <div className="alt"><a href="mailto:khemaraul@gmail.com">khemaraul@gmail.com</a></div>
             <div className="text-[#AEAEAE]"><FaGithub /></div>
             <div className="alt"><a href="https://github.com/khemaraul">github.com</a></div>
             <div className="text-[#AEAEAE]"><FaLinkedin /></div>
             <div className="alt"><a href="https://www.linkedin.com/in/khema-raul-970bba15b/?originalSubdomain=in" target="_blank">linkedin.com</a></div>
             <div className="text-[#AEAEAE]"><FaMapMarkedAlt /></div>
-            <div className="alt">Mumbai, India</div>
+            <div className="alt">D09W6Y4, Ireland</div>
         </div>
       </motion.div>
       <motion.div
@@ -117,10 +117,10 @@ export default function Resume() {
         <div className="flex flex-col justify-evenly">
             <div className="flex flex-col justify-evenly mb-6">
                 <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE] py-[10px]">SUMMARY</div>
-                <div className="text-lg mt-4">Passionate and dedicated Data Engineer with over 4 years of professional experience in software development and deployment. I have a strong foundation in both frontend and backend development, with hands-on expertise in Python, React.js, Node.js, JavaScript, and TypeScript. My experience extends to utilizing Microsoft Azure for seamless deployments and GitHub Actions for CI/CD, ensuring efficient and reliable software delivery. I thrive on leveraging cutting-edge technology to drive impactful results and am eager to continue growing in this dynamic field.</div>
+                <div className="text-lg mt-4">Currently pursuing a Master's in Computing with a specialization in Artificial Intelligence at DCU. I am an experienced Data Engineer with 4+ years in software development and deployment, proficient in both frontend and backend technologies. My technical skill set includes Python, React.js, Node.js, JavaScript, and TypeScript, along with expertise in Microsoft Azure for cloud deployments and GitHub Actions for CI/CD pipelines. I am passionate about leveraging innovative technologies to deliver high-impact results and continually enhance software delivery processes. Eager to contribute and grow in the dynamic field of AI and software engineering.</div>
             </div>
             <div className="flex flex-col justify-evenly mb-6">
-                <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE] pt-[10px]">EXPERIENCE</div>
+                <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE] py-[10px]">EXPERIENCE</div>
                 {personalData.map((ele,index) => (
                     <div key={index}>
                         <div className="text-2xl font-bold mt-2">{ele.position}</div>
@@ -155,7 +155,7 @@ export default function Resume() {
             </div>
             </div>
             <div className="flex flex-col justify-evenly">
-            <div className="flex flex-col justify-evenly mb-[2.2rem]">
+            <div className="flex flex-col justify-evenly mb-6">
                 <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE] py-[10px]">CERTIFICATION</div>
                 <div className="text-lg flex flex-row items-center">
                     <div className="text-lg text-[#ec6608] mt-[20px] mr-[10px]"><FaCertificate /></div>
@@ -165,8 +165,16 @@ export default function Resume() {
             </div>
             <div className="flex flex-col justify-evenly mb-6">
                 <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE] py-[10px]">EDUCATION</div>
-                <div className="text-xl font-bold my-6">Bachelor of engineering Information Technology</div>
-                <div className="flex flex-row justify-between items-center my-2">
+                <div className="text-l font-bold mt-2">Master's in Computing-Artificial Intelligence</div>
+                <div className="flex flex-row justify-between items-center">
+                    <div className="text-md text-[#ec6608] font-bold">Dublin City University</div>
+                    <div className="flex flex-row justify-evenly mr-[18px]">
+                        <div className="flex flex-row justify-between items-center"><span className="mt-[18px] pr-[1px]"><FaCalendarWeek /></span><span className="px-2">2024-2025</span></div>
+                        <div className="flex flex-row justify-between items-center"><span className="mt-[18px] pr-[1px]"><FaMapPin /></span><span className="px-2">Dublin 9, Ireland</span></div>
+                    </div>
+                </div>
+                <div className="text-l font-bold mt-2">Bachelor of engineering Information Technology</div>
+                <div className="flex flex-row justify-between items-center">
                     <div className="text-md text-[#ec6608] font-bold">Savitribai Phule Pune University</div>
                     <div className="flex flex-row justify-evenly">
                         <div className="flex flex-row justify-between items-center"><span className="mt-[18px] pr-[1px]"><FaCalendarWeek /></span><span className="px-2">2015-2019</span></div>

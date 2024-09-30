@@ -19,7 +19,8 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Dedicated <span className="font-medium">Data Engineer</span> with over{" "}
+        Currently pursuing a <span className="font-medium">Master's in Computing</span> with a specialization in <span className="font-medium">Artificial Intelligence</span> at Dublin City University, Ireland.{" "}
+        I am an experienced <span className="font-medium">Data Engineer</span> with over{" "}
         <span className="font-medium">4+ years</span>{" "}of professional experience in{" "}
         <span className="font-medium">software development and deployment.</span>{" "}
         <span>Passionate about all kinds of technology, I have hands-on experience in both frontend and backend development. 
