@@ -101,7 +101,7 @@ export default function ResumeBackup() {
         animate={{ opacity: 1, y: 0 }}
       >
         <div className="text-3xl my-[5px] font-['raleway']">Khema Raul</div>
-        <div className="text-lg text-[#ec6608] my-[5px]">Stamp 2 | Masters AI Student at DCU | Data Engineer | Ex ICICI Lombard | Python, Microsoft Azure, Javascript, React.js, Node.js</div>
+        <div className="text-lg text-[#ec6608] my-[5px]">Masters AI Student at DCU | Data Engineer | Ex ICICI Lombard | Python, Microsoft Azure, Javascript, React.js, Node.js</div>
         <div className="personalInfo flex flex-row items-center text-lg my-[10px]">
             <div className="text-[#AEAEAE]"><FaEnvelope /></div>
             <div className="alt"><a href="mailto:khemaraul@gmail.com">khemaraul@gmail.com</a></div>
@@ -128,6 +128,25 @@ export default function ResumeBackup() {
                 <div className="text-sm mt-4">Currently pursuing a Master's in Computing with a specialization in Artificial Intelligence at DCU. I am an experienced Data Engineer with 4+ years in software development and deployment, proficient in both frontend and backend technologies. My technical skill set includes Python, React.js, Node.js, JavaScript, and TypeScript, along with expertise in Microsoft Azure for cloud deployments and GitHub Actions for CI/CD pipelines. I am passionate about leveraging innovative technologies to deliver high-impact results and continually enhance software delivery processes. Eager to contribute and grow in the dynamic field of AI and software engineering.</div>
             </div>
             <div className="flex flex-col justify-evenly mb-6">
+                <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE]">EDUCATION</div>
+                <div className="text-2xl font-bold mt-6">Master's in Computing-Artificial Intelligence</div>
+                <div className="flex flex-row justify-between items-center my-4">
+                    <div className="text-md text-[#ec6608] font-bold">Dublin City University</div>
+                    <div className="flex flex-row justify-evenly mr-[18px]">
+                        <div className="flex flex-row justify-between items-center"><span className="pr-[1px]"><FaCalendarWeek /></span><span className="px-2">2024-2025</span></div>
+                        <div className="flex flex-row justify-between items-center"><span className="pr-[1px]"><FaMapPin /></span><span className="px-2">Dublin 9, Ireland</span></div>
+                    </div>
+                </div>
+                <div className="text-2xl font-bold mt-6">Bachelor of engineering Information Technology</div>
+                <div className="flex flex-row justify-between items-center my-4">
+                    <div className="text-md text-[#ec6608] font-bold">Savitribai Phule Pune University</div>
+                    <div className="flex flex-row justify-evenly">
+                        <div className="flex flex-row justify-between items-center"><span className="pr-[1px]"><FaCalendarWeek /></span><span className="px-2">2015-2019</span></div>
+                        <div className="flex flex-row justify-between items-center"><span className="pr-[1px]"><FaMapPin /></span><span className="px-2">Pune, Maharashtra</span></div>
+                    </div>
+                </div>
+            </div>
+            <div className="flex flex-col justify-evenly mb-6">
                 <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE]">EXPERIENCE</div>
                 {personalData.map((ele,index) => (
                     <div key={index}>
@@ -146,25 +165,6 @@ export default function ResumeBackup() {
                     </div>
                     )
                 )}
-            </div>
-            <div className="flex flex-col justify-evenly mb-6">
-                <div className="text-xl text-[#AEAEAE] border-b-2 border-[#AEAEAE]">EDUCATION</div>
-                <div className="text-2xl font-bold mt-6">Master's in Computing-Artificial Intelligence</div>
-                <div className="flex flex-row justify-between items-center my-4">
-                    <div className="text-md text-[#ec6608] font-bold">Dublin City University</div>
-                    <div className="flex flex-row justify-evenly mr-[18px]">
-                        <div className="flex flex-row justify-between items-center"><span className="pr-[1px]"><FaCalendarWeek /></span><span className="px-2">2024-2025</span></div>
-                        <div className="flex flex-row justify-between items-center"><span className="pr-[1px]"><FaMapPin /></span><span className="px-2">Dublin 9, Ireland</span></div>
-                    </div>
-                </div>
-                <div className="text-2xl font-bold mt-6">Bachelor of engineering Information Technology</div>
-                <div className="flex flex-row justify-between items-center my-4">
-                    <div className="text-md text-[#ec6608] font-bold">Savitribai Phule Pune University</div>
-                    <div className="flex flex-row justify-evenly">
-                        <div className="flex flex-row justify-between items-center"><span className="pr-[1px]"><FaCalendarWeek /></span><span className="px-2">2015-2019</span></div>
-                        <div className="flex flex-row justify-between items-center"><span className="pr-[1px]"><FaMapPin /></span><span className="px-2">Pune, Maharashtra</span></div>
-                    </div>
-                </div>
             </div>
         </div>
         <div className="flex flex-col justify-evenly">
