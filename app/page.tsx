@@ -13,7 +13,7 @@ export default function Home() {
       <About />
       <ResumeBackup />
       <Contact />
-      <ConvertToPDF />
+      {/* <ConvertToPDF /> */}
     </main>
   );
 }
